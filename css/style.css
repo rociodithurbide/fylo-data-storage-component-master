@@ -22,22 +22,22 @@ body {
     height: 100vh;
     
 }
-.box {
-    background-color: var(--dark-blue);
-    width: 50%;
-    border-radius: 10px;
-}
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
+.box {
+    background-color: var(--dark-blue);
+    width: 90vw;
+    border-radius: 10px;
+}
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    color: var(--pale-blue)
 }
 .attribution a {
-     color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%); 
 }
