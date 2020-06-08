@@ -5,43 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Fylo data storage component</title>
 
   </head>
 
   <body>
-  <div class="box box1">
-    <img src="images/logo.svg" alt="Fylo Logo" class="logo">    
-    <div class="documents">
-      <div class="icon">
-        <div class="file"></div>
+    <div class="container">
+      <div class="box box1">
+        <img src="images/logo.svg" alt="Fylo Logo" class="logo">    
+        <div class="documents">
+          <div class="icon">
+            <div class="file"></div>
+          </div>
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <div class="icon">
+            <div class="upload"></div>
+          </div>
+        </div>
       </div>
-      <div class="icon">
-        <div class="folder"></div>
+
+      <div class="box box2">
+        <div class="space-used"><p>You’ve used <strong>815 GB</strong> of your storage</p></div>
+        <div class="outer-bar">
+          <div class="inner-bar"></div>
+        </div>
+        <div class="gigas">
+          <div>0 GB</div>
+          <div>1000 GB</div>
+        </div>
       </div>
-      <div class="icon">
-        <div class="upload"></div>
+      
+      <div class="box-space-msg">
+        <p>185 <span>GB LEFT</span></p>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://codepen.io/rociodithurbide/" target="_blank">Rocío Dithurbide</a>.
       </div>
     </div>
-  </div>
 
-  <div class="box box2">
-    <div class="space-used"><p>You’ve used <strong>815 GB</strong> of your storage</p></div>
-    <div class="bar"></div>
-    <div class="gigas">
-      <div>0 GB</div>
-      <div>1000 GB</div>
-    </div>
-  </div>
-  <div class="box box-space-left">
-    <p><span>185 GB</span> Left</p>
-  </div>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://codepen.io/rociodithurbide/" target="_blank">Rocío Dithurbide</a>.
-  </div>
+  
 
 </body>
 </html>
