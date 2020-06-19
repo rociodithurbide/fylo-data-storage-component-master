@@ -14,13 +14,13 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 14 px;
+    font-size: 0.875rem;
     background-color: var(--very-dark-blue);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+    color: var(--pale-blue);
 }
 .container {
     display: flex;
@@ -30,14 +30,69 @@ body {
 .box {
     background-color: var(--dark-blue);
     width: 90vw;
-    border-radius: 10px;
+    border-radius: 0.625rem;
+    padding: 3rem;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    color: var(--pale-blue)
+/*-- First box --*/
+.box1{
+  margin-bottom: 1rem;
+  border-radius: 0.625rem 8rem 0.625rem 0.625rem;
+}
+.documents{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.icon-box{
+  background-color: var(--very-dark-blue);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.625rem;
+  margin: 2rem 0.625rem 0 0;
+}
+.icon{
+  height: 4rem;
+  width: 4rem;
+  background-size: 1.8rem auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.file{
+  background-image: url(../images/icon-document.svg);
+}
+.folder{
+  background-image: url(../images/icon-folder.svg);
+}
+.upload{
+  background-image: url(../images/icon-upload.svg);
+  background-size: 2rem auto;
+}
+
+/*-- Second Box --*/
+.box2{
+
+}
+
+.outer-bar{
+  background-color: var(--very-dark-blue);
+  width: 100%;
+  height: 1rem;
+  border-radius: 0.625rem;
+  position: relative;
+}
+.inner-bar{
+  position: absolute;
+  background-color: var(--gradient);
+  
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
 }
