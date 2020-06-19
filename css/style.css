@@ -70,23 +70,30 @@ body {
 }
 
 /*-- Second Box --*/
-.box2{
-
-}
 
 .outer-bar{
   background-color: var(--very-dark-blue);
   width: 100%;
   height: 1rem;
   border-radius: 0.625rem;
-  position: relative;
+  margin: 1rem auto;
 }
 .inner-bar{
-  position: absolute;
-  background-color: var(--gradient);
-  
-}
+  width: 75%;
+  height: 80%;
+  background-image: linear-gradient(to right, #ffa399, #ff4d97 );
+  border-radius: 0.625rem;
 
+  display: flex;
+  justify-content: flex-end;
+}
+.bullet{
+  width: 6%;
+  height: 80%;
+  border-radius: 0.625rem;
+  background-color: var(--pale-blue);
+  z-index: 2;
+}
 
 
 .attribution {
