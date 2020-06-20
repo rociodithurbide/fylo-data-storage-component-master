@@ -62,6 +62,12 @@ body {
   margin-bottom: 1rem;
   border-radius: 0.625rem 7rem 0.625rem 0.625rem;
 }
+@media screen and (min-width: 1440px){
+  .box1{
+    margin-bottom: 0;
+    margin-right: 7rem;
+  }
+}
 .documents{
   display: flex;
   flex-direction: row;
@@ -98,6 +104,11 @@ body {
 /*-- Second Box --*/
 .box2{
   padding-bottom: 3rem;
+}
+@media screen and (min-width: 1440px){
+  .box2{
+    padding-bottom: 0;
+  }
 }
 .outer-bar{
   background-color: var(--very-dark-blue);
