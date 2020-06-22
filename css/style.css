@@ -38,9 +38,9 @@ body {
 @media screen and (min-width: 1440px){
   body{
     background-color: var(--very-dark-blue);
-/*    background-image: url(../images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
     background-position: bottom;
-    background-size: auto;  */
+    background-size: 100vw 50vh;  
   }
   .container{
     display: flex;
@@ -64,8 +64,9 @@ body {
 }
 @media screen and (min-width: 1440px){
   .box1{
-    margin-bottom: 0;
-    margin-right: 7rem;
+    width: 18rem;
+    margin: 0 2rem 0 0;
+    border-radius: 0.625rem 7rem 0.625rem 0.625rem;
   }
 }
 .documents{
@@ -108,6 +109,8 @@ body {
 @media screen and (min-width: 1440px){
   .box2{
     padding-bottom: 0;
+    margin-top: 2.5rem;
+    width: 34rem;
   }
 }
 .outer-bar{
@@ -142,16 +145,7 @@ body {
   justify-content: space-between;
   font-weight: 600;
 }
-@media screen and (min-width: 1440px){
-  .box1{
-    width: 18rem;
-    margin: 0 2rem 1rem 0;
-    border-radius: 0.625rem 7rem 0.625rem 0.625rem;
-  }
-  .box2{
-    margin-bottom: 2rem;
-  }
-}
+
 /*-- Float Box --*/
 .box-storage-msg{
   background-color: var(--white-blue);
@@ -174,6 +168,23 @@ body {
   text-transform: uppercase;
   position: relative;
   top: -0.5rem;
+}
+@media screen and (min-width: 1440px){
+  .box-storage-msg{
+    height: 5rem;
+    position: relative;
+    top: -0.5rem;
+    left: -18rem;
+  }
+  .triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 5rem solid var(--white-blue);
+    border-left: 5rem solid transparent;
+    position: relative;
+    left: -7rem;
+    top: 0.5rem;
+  }
 }
 
 .attribution {
